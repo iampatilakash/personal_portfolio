@@ -1,0 +1,50 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.icon {
+  font-size: 40px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.instagram:hover {
+  color: #e1306c;
+  animation: neonGlow 1s infinite alternate;
+}
+
+.whatsapp:hover {
+  color: #25d366;
+  animation: neonGlow 1s infinite alternate;
+}
+
+.linkedin:hover {
+  color: #0077b5;
+  animation: neonGlow 1s infinite alternate;
+}
+
+.github:hover {
+  color: #211f1f;
+  animation: neonGlow 1s infinite alternate;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+  animation: neonGlow 1s infinite alternate;
+}
+
+@keyframes neonGlow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e1306c, 0 0 40px #e1306c, 0 0 70px #e1306c, 0 0 80px #e1306c, 0 0 100px #e1306c;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6, 0 0 100px #ff4da6, 0 0 150px #ff4da6;
+  }
+}

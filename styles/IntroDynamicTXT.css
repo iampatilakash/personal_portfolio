@@ -1,0 +1,30 @@
+.dynamicTxt {
+    color: #fff;
+    font-size: 100px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .dynamicTxt span {
+    color: skyblue;
+    position: relative;
+  }
+  
+  /* Remove the cursor-related styles */
+  .dynamicTxt span::before {
+    content: "";
+    display: none; /* Remove the cursor */
+  }
+  
+  .dynamicTxt span.stop-blinking::before {
+    display: none; /* Ensure cursor doesn't appear */
+  }
+  
+  /* Animation for text blinking */
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
