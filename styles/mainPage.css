@@ -6,15 +6,17 @@ body{
     padding: 0;
     overflow-y: auto;
     display:grid;
-    grid-template-columns: 1200px 250px;
+    grid-template-columns: 1200px 240px;
 }
 
 .leftPart{
+
    
 }
 
 .rightPart{
-    background-color: skyblue;
+    background-color: #121212;
+
 }
 
 .introPage{
@@ -34,6 +36,7 @@ body{
     position: absolute;
     margin-top: 100px;
     margin-left: 40px;
+    z-index: 2;
 }
 
 .hiStyle{
@@ -63,10 +66,6 @@ body{
     letter-spacing: 10px;
 }
 
-
-
-
-
 .aboutPage{
     border-bottom: 10px  skyblue solid;
     display: grid;
@@ -79,19 +78,20 @@ body{
 }
 
 .titleName{
-    font-size: 140px;
+    font-size: 150px;
     margin-top: 80px;
     margin-left: 40px;
     margin-bottom: 0px;
     color: white;
     opacity: 0.2;
-    letter-spacing: 15px;
+    width: 650px;
+    letter-spacing: 10px;
 }
 
 .informationSection{
     font-size: 20px;
     margin-left: 40px;
-    width: 700px;
+    width: 580px;
     color: white;
 }
 
@@ -101,8 +101,6 @@ body{
     width: 100%;
     overflow-x: scroll;
 }
-
-
 
 .projectsPage{
     border-bottom: 10px  skyblue solid;

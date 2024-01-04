@@ -1,34 +1,10 @@
 .elevator{
-    height: 300px;
+    height: 350px;
     width: 220px;
-    margin-left: 15px;
     background-color: grey;
     position: absolute;
+    /* transition: top 2s ease-in-out; */
+    margin-left: 10px;
+    top: 430px;
 }
 
-/* Animation */
-@keyframes moveUpAnimation {
-    from {
-        top: 600px;
-    }
-    to {
-        top: 0;
-    }
-}
-
-@keyframes moveDownAnimation {
-    from {
-        top: 0;
-    }
-    to {
-        top: 600px;
-    }
-}
-
-.move-up {
-    animation: moveUpAnimation 2s linear forwards;
-}
-
-.move-down {
-    animation: moveDownAnimation 2s linear forwards;
-}

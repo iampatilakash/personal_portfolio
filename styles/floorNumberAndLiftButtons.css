@@ -1,0 +1,146 @@
+.floorNumber7{
+    width: 580px;
+    display: flex;
+    height: 580px;
+    background-color: #121212;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center; 
+    align-items: center;
+    font-size: 350px;
+    top: 100px;
+    left: 620px;
+    position: absolute;
+}
+
+.floorNumber7 h1{
+    color: grey;
+    opacity: 0.1;
+    margin: 0px;
+}
+
+.floorNumber6{
+    width: 580px;
+    display: flex;
+    height: 580px;
+    background-color: #121212;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center; 
+    align-items: center;
+    font-size: 350px;
+    top: 900px;
+    left: 620px;
+    position: absolute;
+}
+
+.floorNumber6 h1{
+    color: white;
+    margin: 0px;
+    opacity: 0.1;
+}
+
+.floorNumber5{
+    width: 580px;
+    display: flex;
+    height: 580px;
+    background-color: #121212;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center; 
+    align-items: center;
+    font-size: 350px;
+    top: 1710px;
+    left: 620px;
+    position: absolute;
+}
+
+.floorNumber5 h1{
+    color: white;
+    margin: 0px;
+    opacity: 0.1;
+}
+
+.floorNumber4{
+    width: 580px;
+    display: flex;
+    height: 580px;
+    background-color: #121212;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center; 
+    align-items: center;
+    font-size: 350px;
+    top: 2525px;
+    left: 620px;
+    position: absolute;
+}
+
+.floorNumber4 h1{
+    color: white;
+    margin: 0px;
+    opacity: 0.1;
+}
+
+.floorNumber3{
+    width: 580px;
+    display: flex;
+    height: 580px;
+    background-color: #121212;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center; 
+    align-items: center;
+    font-size: 350px;
+    top: 3350px;
+    left: 620px;
+    position: absolute;
+}
+
+.floorNumber3 h1{
+    color: white;
+    margin: 0px;
+    opacity: 0.1;
+}
+
+.floorNumber2{
+    width: 580px;
+    display: flex;
+    height: 580px;
+    background-color: #121212;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center; 
+    align-items: center;
+    font-size: 350px;
+    top: 4175px;
+    left: 620px;
+    position: absolute;
+}
+
+.floorNumber2 h1{
+    color: white;
+    margin: 0px;
+    opacity: 0.1;
+}
+
+.floorNumber1{
+    width: 580px;
+    display: flex;
+    height: 580px;
+    background-color: #121212;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-content: center; 
+    align-items: center;
+    font-size: 350px;
+    top: 5000px;
+    left: 620px;
+    position: absolute;
+}
+
+.floorNumber1 h1{
+    color: white;
+    margin: 0px;
+    opacity: 0.1;
+}
