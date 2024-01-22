@@ -1,95 +1,96 @@
-.elevator{
-    height: 350px;
-    width: 220px;
-    background-color: grey;
-    position: absolute;
-    /* transition: top 2s ease-in-out; */
-    margin-left: 10px;
-    top: 430px;
+.lift{
+   height: 350px;
+   width: 220px;
+   background-color: grey;
+   position: absolute;
+   /* transition: top 2s ease-in-out; */
+   margin-left: 10px;
+   top: 440px;
+   left:1200px
 }
 
 .elevatorIntroButtons{
+  width: 60px;
+  height: 100px;
+  background-color: #121212; 
+  position: absolute;
+  top: 590px;
+  left: 1115px;
+}
+
+.elevatorAboutButtons{
    width: 60px;
    height: 100px;
    background-color: #121212; 
    position: absolute;
-   top: 590px;
+   top: 1390px;
    left: 1115px;
 }
 
-.elevatorAboutButtons{
-    width: 60px;
-    height: 100px;
-    background-color: #121212; 
-    position: absolute;
-    top: 1390px;
-    left: 1115px;
- }
+.elevatorSkillButtons{
+   width: 60px;
+   height: 100px;
+   background-color: #121212; 
+   position: absolute;
+   top: 2220px;
+   left: 1115px;
+}
 
- .elevatorSkillButtons{
-    width: 60px;
-    height: 100px;
-    background-color: #121212; 
-    position: absolute;
-    top: 2220px;
-    left: 1115px;
- }
+.elevatorProjectsButtons{
+   width: 60px;
+   height: 100px;
+   background-color: #121212; 
+   position: absolute;
+   top: 3030px;
+   left: 1115px;
+}
 
- .elevatorProjectsButtons{
-    width: 60px;
-    height: 100px;
-    background-color: #121212; 
-    position: absolute;
-    top: 3030px;
-    left: 1115px;
- }
- 
- .elevatorBlogsButtons{
-    width: 60px;
-    height: 100px;
-    background-color: #121212; 
-    position: absolute;
-    top: 3840px;
-    left: 1115px;
- }
+.elevatorBlogsButtons{
+   width: 60px;
+   height: 100px;
+   background-color: #121212; 
+   position: absolute;
+   top: 3840px;
+   left: 1115px;
+}
 
- .elevatorSocialButtons{
-    width: 60px;
-    height: 100px;
-    background-color: #121212; 
-    position: absolute;
-    top: 3030px;
-    left: 1115px;
- }
+.elevatorSocialButtons{
+   width: 60px;
+   height: 100px;
+   background-color: #121212; 
+   position: absolute;
+   top: 3030px;
+   left: 1115px;
+}
 
- .elevatorSocialButtons{
-    width: 60px;
-    height: 100px;
-    background-color: #121212; 
-    position: absolute;
-    top: 4670px;
-    left: 1115px;
- }
+.elevatorSocialButtons{
+   width: 60px;
+   height: 100px;
+   background-color: #121212; 
+   position: absolute;
+   top: 4670px;
+   left: 1115px;
+}
 
- .elevatorHireButtons{
-    width: 60px;
-    height: 100px;
-    background-color: #121212; 
-    position: absolute;
-    top: 5540px;
-    left: 1115px;
- }
+.elevatorHireButtons{
+   width: 60px;
+   height: 100px;
+   background-color: #121212; 
+   position: absolute;
+   top: 5540px;
+   left: 1115px;
+}
 
 .elevatorArrowsDownButton{
-    background-color: #121212;
-    width: 60px;
-    border: none;
-    
+   background-color: #121212;
+   width: 60px;
+   border: none;
+   
 }
 .elevatorArrowsUpButton{
-    background-color: #121212;
-    width: 60px;
-    border: none;
-    
+   background-color: #121212;
+   width: 60px;
+   border: none;
+   
 }
 

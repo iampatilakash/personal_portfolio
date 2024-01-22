@@ -6,7 +6,7 @@ body{
     padding: 0;
     overflow-y: auto;
     display:grid;
-    grid-template-columns: 1200px 240px;
+    /* grid-template-columns: 1200px 240px; */
 }
 
 .leftPart{
@@ -14,15 +14,16 @@ body{
    
 }
 
-.rightPart{
+/* .rightPart{
     background-color: #121212;
 
-}
+} */
 
-.introPage{
+.floor{
     border-bottom: 10px  skyblue solid;
     display: grid;
     width: 100%;
+    overflow-x: scroll;
 }
 
 .leftIntroSection{
@@ -66,12 +67,6 @@ body{
     letter-spacing: 10px;
 }
 
-.aboutPage{
-    border-bottom: 10px  skyblue solid;
-    display: grid;
-    width: 100%;
-}
-
 .leftSection{
     background-color: #121212;
     height: 100vh;
@@ -95,13 +90,6 @@ body{
     color: white;
 }
 
-.skillPage{
-    border-bottom: 10px skyblue solid;
-    display: grid;
-    width: 100%;
-    overflow-x: scroll;
-}
-
 .projectsPage{
     border-bottom: 10px  skyblue solid;
     display: grid;
@@ -109,27 +97,8 @@ body{
     overflow-x: scroll;
 }
 
-.blogsPage{
-    border-bottom: 10px  skyblue solid;
-    display: grid;
-    width: 100%;
-    overflow-x: scroll;
-}
-
-.socialPage{
-    border-bottom: 10px  skyblue solid;
-    display: grid;
-    width: 100%;
-}
 
 
-
-.hireMePage{
-    border-bottom: 5px  skyblue solid;
-    display: grid;
-    width: 100%;
-    background-color: #121212;
-}
 
 
   

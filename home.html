@@ -9,12 +9,11 @@
     <link rel="stylesheet" href="styles/IntroDynamicTXT.css">
     <link rel="stylesheet" href="styles/elevator.css">
     <link rel="stylesheet" href="styles/floorNumberAndLiftButtons.css">
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"   integrity="sha512-4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" /> -->
-</head>
+    </head>
 <body>
-<div class="leftPart">
+<div class="leftPart" id="bodyContent">
     <!-- this is START OF INTRO page  -->
-    <div class="introPage">
+    <div class="floor" id="section1">
     <div class="leftIntroSection">
         <div class="intro">
         <h1 class="hiStyle">Hi,</h1>
@@ -24,72 +23,73 @@
         </div>
         <div class="floorNumber7"><h1>7</h1></div>
         <div class="elevatorIntroButtons">
-            <button class="elevatorArrowsDownButton"><img src="images/elevatorDownArrow.png" alt="Down"></button>
+            <button class="elevatorArrowsDownButton"  onclick="moveLift('section1', 1)"><img src="images/elevatorDownArrow.png" alt="Down"></button>
         </div>
 
         <script src="javascript/dynamicTXT.js"></script>
+        <script src="javascript/elevator.js"></script>
     </div>
     </div>
     <!-- this is END OF INTRO page  -->
     <!-- ************************************ -->
     <!-- this is START OF ABOUT ME  div section -->
-    <div class="aboutPage">
+    <div class="floor" id="section2">
      <div class="leftSection">
             <h1 class="titleName">About</h1>  
             <p class="informationSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus itaque, nam ex accusantium hic nulla esse laudantium alias eaque voluptate error atque? Consequatur, in rerum sapiente aperiam fugit fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim libero magnam autem placeat, eligendi animi et ipsa quasi accusantium numquam omnis, totam ex est laborum quis at dignissimos ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus itaque, nam ex accusantium hic nulla esse laudantium alias eaque voluptate error atque? Consequatur, in rerum sapiente aperiam fugit fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim libero magnam autem placeat, eligendi animi et ipsa quasi accusantium numquam omnis, totam ex est laborum quis at dignissimos ad.</p>
     </div>
     <div class="floorNumber6"><h1>6</h1></div>
     <div class="elevatorAboutButtons">
-        <button class="elevatorArrowsUpButton"><img src="images/elevatorUpArrow.png" alt="Down"></button>
-        <button class="elevatorArrowsDownButton"><img src="images/elevatorDownArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsUpButton"  onclick="moveLift('section2', -1)"><img src="images/elevatorUpArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsDownButton"  onclick="moveLift('section2', 1)"><img src="images/elevatorDownArrow.png" alt="Down"></button>
     </div>
     </div>
     <!-- this is END OF ABOUT ME page div section -->
     <!-- ************************************ -->
     <!-- this is START OF SKILLS PAGE  div section -->
-    <div class="skillPage">
+    <div class="floor" id="section3">
     <div class="leftSection">
         <p class="titleName">Skills</p>
         <p class="informationSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus itaque, nam ex accusantium hic nulla esse laudantium alias eaque voluptate error atque? Consequatur, in rerum sapiente aperiam fugit fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim libero magnam autem placeat, eligendi animi et ipsa quasi accusantium numquam omnis, totam ex est laborum quis at dignissimos ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus itaque, nam ex accusantium hic nulla esse laudantium alias eaque voluptate error atque? Consequatur, in rerum sapiente aperiam fugit fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim libero magnam autem placeat, eligendi animi et ipsa quasi accusantium numquam omnis, totam ex est laborum quis at dignissimos ad.</p>
     </div>
     <div class="floorNumber5"><h1>5</h1></div>
     <div class="elevatorSkillButtons">
-        <button class="elevatorArrowsUpButton"><img src="images/elevatorUpArrow.png" alt="Down"></button>
-        <button class="elevatorArrowsDownButton"><img src="images/elevatorDownArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsUpButton"  onclick="moveLift('section3', -1)"><img src="images/elevatorUpArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsDownButton"  onclick="moveLift('section3', 1)"><img src="images/elevatorDownArrow.png" alt="Down"></button>
     </div>
     </div>
     <!-- this is END OF SKILLS PAGE  div section -->
     <!-- ************************************ -->
     <!-- this is START OF PROJECTS PAGE  div section -->
-    <div class="projectsPage">
+    <div class="floor" id="section4">
     <div class="leftSection">
         <p class="titleName">Projects</p>
         <p class="informationSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus itaque, nam ex accusantium hic nulla esse laudantium alias eaque voluptate error atque? Consequatur, in rerum sapiente aperiam fugit fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim libero magnam autem placeat, eligendi animi et ipsa quasi accusantium numquam omnis, totam ex est laborum quis at dignissimos ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus itaque, nam ex accusantium hic nulla esse laudantium alias eaque voluptate error atque? Consequatur, in rerum sapiente aperiam fugit fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim libero magnam autem placeat, eligendi animi et ipsa quasi accusantium numquam omnis, totam ex est laborum quis at dignissimos ad.</p>
     </div>
     <div class="floorNumber4"><h1>4</h1></div>
     <div class="elevatorProjectsButtons">
-        <button class="elevatorArrowsUpButton"><img src="images/elevatorUpArrow.png" alt="Down"></button>
-        <button class="elevatorArrowsDownButton"><img src="images/elevatorDownArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsUpButton"  onclick="moveLift('section4', -1)"><img src="images/elevatorUpArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsDownButton"  onclick="moveLift('section4', 1)"><img src="images/elevatorDownArrow.png" alt="Down"></button>
     </div>
     </div>
     <!-- this is END OF PROJECTS PAGE  div section -->
     <!-- ************************************ -->
     <!-- this is START OF BLOGS PAGE  div section -->
-    <div class="blogsPage">
+    <div class="floor" id="section5">
     <div class="leftSection">
         <p class="titleName">Blogs</p>
         <p class="informationSection">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus itaque, nam ex accusantium hic nulla esse laudantium alias eaque voluptate error atque? Consequatur, in rerum sapiente aperiam fugit fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim libero magnam autem placeat, eligendi animi et ipsa quasi accusantium numquam omnis, totam ex est laborum quis at dignissimos ad. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae repellendus itaque, nam ex accusantium hic nulla esse laudantium alias eaque voluptate error atque? Consequatur, in rerum sapiente aperiam fugit fuga? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate enim libero magnam autem placeat, eligendi animi et ipsa quasi accusantium numquam omnis, totam ex est laborum quis at dignissimos ad.</p>
     </div>
     <div class="floorNumber3"><h1>3</h1></div>
     <div class="elevatorBlogsButtons">
-        <button class="elevatorArrowsUpButton"><img src="images/elevatorUpArrow.png" alt="Down"></button>
-        <button class="elevatorArrowsDownButton"><img src="images/elevatorDownArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsUpButton"  onclick="moveLift('section5', -1)"><img src="images/elevatorUpArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsDownButton"  onclick="moveLift('section5', 1)"><img src="images/elevatorDownArrow.png" alt="Down"></button>
     </div>
     </div>
     <!-- this is END OF BLOGS PAGE  div section -->
     <!-- ************************************ -->
     <!-- this is START OF SOCIAL PAGE  div section -->
-    <div class="socialPage">
+    <div class="floor" id="section6">
     <div class="leftSection">
             <p class="titleName">Social</p>
             <div class="social-icons">
@@ -102,28 +102,26 @@
     </div>
     <div class="floorNumber2"><h1>2</h1></div>
     <div class="elevatorSocialButtons">
-        <button class="elevatorArrowsUpButton"><img src="images/elevatorUpArrow.png" alt="Down"></button>
-        <button class="elevatorArrowsDownButton"><img src="images/elevatorDownArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsUpButton"  onclick="moveLift('section6', -1)"><img src="images/elevatorUpArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsDownButton"  onclick="moveLift('section6', 1)"><img src="images/elevatorDownArrow.png" alt="Down"></button>
     </div>
     </div>
     <!-- this is END OF SOCIAL PAGE  div section -->
     <!-- ************************************ -->
     <!-- this is START OF HIRE ME PAGE  div section -->
-    <div class="hireMePage">
+    <div class="floor" id="section7">
     <div class="leftSection">
         <p class="titleName">Hire Me</p>
     </div>
     <div class="floorNumber1"><h1>1</h1></div>
     <div class="elevatorHireButtons">
-        <button class="elevatorArrowsUpButton"><img src="images/elevatorUpArrow.png" alt="Down"></button>
+        <button class="elevatorArrowsUpButton"  onclick="moveLift('section7', -1)"><img src="images/elevatorUpArrow.png" alt="Down"></button>
     </div>
     </div>
     <!-- this is END OF HIRE ME PAGE  div section -->
 </div>
-<div class="rightPart">
-       <div class="elevator">
+       <div class="lift" id="elevator">
         
        </div>
-</div> 
 </body>
 </html>
